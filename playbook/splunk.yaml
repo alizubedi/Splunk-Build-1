@@ -1,9 +1,4 @@
-- name: Create application directories
-  template:
-    src: ecsl_system_builder.sh.j2
-    dest: /usr/local/bin/ecsl_system_builder.sh
-    mode: 0755
-  become: yes
+
 
 - name: Create application directories
   file:
